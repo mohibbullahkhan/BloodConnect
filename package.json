@@ -24,5 +24,11 @@
     "eslint-config-next": "16.0.4",
     "tailwindcss": "^4.1.17"
   },
-  "browserslist": "> 1%"
+  "browserslist": "> 1%",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  }
 }
