@@ -25,7 +25,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/60"></div>
 
         <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
-          <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md border border-red-500/30 rounded-full px-8 py-4 mb-8 animate-pulse">
+          <div className="inline-flex max-sm:hidden items-center gap-3 bg-red-600/20 backdrop-blur-md border border-red-500/30 rounded-full px-8 py-4 mb-8 animate-pulse">
             <Heart className="w-7 h-7 fill-red-500 text-red-500" />
             <span className="text-red-200 font-bold tracking-wider uppercase text-sm">
               One Donation = Three Lives Saved
